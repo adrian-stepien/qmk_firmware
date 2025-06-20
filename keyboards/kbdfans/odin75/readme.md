@@ -24,3 +24,7 @@ Flashing example for this keyboard:
     make kbdfans/odin75:default:flash
 
 See the [build environment setup](https://docs.qmk.fm/#/getting_started_build_tools) and the [make instructions](https://docs.qmk.fm/#/getting_started_make_guide) for more information. Brand new to QMK? Start with our [Complete Newbs Guide](https://docs.qmk.fm/#/newbs).
+
+By default it compiles with bongocat animation. In order to enable bongobadger use:
+
+    qmk compile -kb kbdfans/odin75 -km default -e BONGO_VARIANT=badger

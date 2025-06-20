@@ -1,2 +1,2 @@
 OLED_TRANSPORT = spi
-SRC += lib/bongocat.c
+VIA_ENABLE = yes
